@@ -1,0 +1,22 @@
+{
+  "arrowParens": "avoid",
+  "printWidth": 80,
+  "trailingComma": "all",
+  "useTabs": false,
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "jsxBracketSameLine": false,
+  "bracketSpacing": true,
+  "importOrder": ["^@(.*)/(.*)$", "^[./]", "^app/(.*)$", "^.*types|/(.*)$"],
+  "importOrderSeparation": true,
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "parser": "babel-flow"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+*.json
+*.md
+*.yaml
+build/
+flow-typed/
+public/
+**/constants/env.js
